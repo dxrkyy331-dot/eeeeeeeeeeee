@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "lite",
+  "version": "${version}",
+  "name": "Lite",
+  "description": "Modular client-side QoL mod with an animated ClickGUI.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.lite.LiteClient"] },
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
